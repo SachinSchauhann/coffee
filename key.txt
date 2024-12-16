@@ -1,0 +1,59 @@
+
+
+/* 
+.next1 .homeb1 .box {
+    position: absolute;
+    width: 400%;
+    height: 80vh;
+    background: url();
+   margin-left: 0;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 1, 0.165, 1);
+    display: flex;
+    background-repeat: cover;
+    
+} */
+
+@keyframes box {
+    25% {
+        left: 0%;
+    }
+    50% {
+        left: -100%;
+    }
+    75% {
+        left: -200%;
+    }
+    100% {
+        left: -300%;
+    }
+} 
+
+
+Rose. 
+Lotus.
+Jasmine. 
+Sunflower.
+Daisy. 
+Tulip. 
+Magnolia. 
+Lavender
+
+
+
+<div id="home" class="next1">
+                        <div class="homeb1">
+                            <div class="box">
+                                <img src="flower1.jpg" alt="flower ">
+                                <!-- <div class="box2"> 
+                                    <img src="flower1.jpg" alt="fl">
+                                </div> -->
+
+
+                            </div>
+
+                        </div>
+
+                    </div>

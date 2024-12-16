@@ -1,0 +1,11 @@
+{
+    "livePreview.customExternalBrowser": "Chrome",
+    "liveServer.settings.CustomBrowser": "firefox",
+    "liveServer.settings.NoBrowser": false,
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "editor.linkedEditing": true
+}

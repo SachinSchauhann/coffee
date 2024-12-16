@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero {
+    background: rgb(0, 225, 255);
+    height: auto;
+    width: auto;
+}
+
+.hero1 {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    padding-top: 85px;
+    justify-content: space-around;
+
+}
+
+.hero2 {
+    height: auto;
+    width: auto;
+}
+
+.hero2 .text_section h2 {
+    font-size: 40px;
+    text-align: center;
+    color: red
+}
+
+.hero2 .text_section h3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.hero .hero1 .hero2 .hero button {
+    padding: 8px 28px;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 50px;
+    background: rgb(27, 41, 88);
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    text-align: center;
+
+}
+
+
+.next1 {
+    height: auto;
+    margin: auto;
+    padding: 0px;
+    width: auto;
+    position: absolute;
+    margin-top: 2.1vh;
+}
+
+.box img {
+    margin-top: auto;
+    height: auto;
+    width: auto;
+    align-items: center;
+    background-color: rgb(231, 17, 17);
+    justify-content: space-between;
+    position: relative;
+    text-shadow: 2vh;
+    border-radius: 0%;
+    margin: auto;
+    object-fit: unset;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.next1 {
+    height: 95vh;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+}
+
+.next1 .homeb1 .box {
+    position: absolute;
+    width: 400%;
+    height: 95vh;
+    background: url(image/back.jpg);
+    background-color: blue;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 1, 0.165, 1);
+    display: flex;
+}
+
+.next1 .homeb1 .box .b1,
+.b2,
+.b3,
+.b4 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.next1 .homeb1 .box .b1 img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.next1 .homeb1 .box .b2 img {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.next1 .homeb1 .box .b3 img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.next1 .homeb1 .box .b4 img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes box {
+    25% {
+        left: 0%;
+    }
+
+    50% {
+        left: -100%;
+    }
+
+    75% {
+        left: -200%;
+    }
+
+    100% {
+        left: -300%;
+    }
+}
+
+.next1 .homeb1 .box1 {
+    margin-top: 600px;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(253, 250, 250);
+    justify-content: space-between;
+    position: absolute;
+    text-shadow: 2vh;
+    display: flex;
+}
